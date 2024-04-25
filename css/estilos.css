@@ -1,0 +1,116 @@
+html{
+    align-content: center;
+}
+
+body {
+    background-image: url('../img/background.jpg'); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 50px;
+    border-radius: 5px; 
+}
+
+/* Titulo principal de la página */
+h1 {
+    margin: 10px;       
+    color: aliceblue;
+    text-align: justify;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    border-radius: 5px;
+}
+.container.bg-custom { /*Fondo del contenido (Para contraste)*/
+    background-color: #1C2F36;
+    border-radius: 20px;
+}
+
+/*Contenido*/
+.parrafo1 {
+    background-color: #808C20;
+    font-size: 15px;  
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.img-custom {       /*Imagenes de parrafo"Historia"*/
+    background-color: #808C20;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* En esta sección se ajusta la barra de navegación */
+.navbar {
+    height: 50;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.custom_navbar {
+    background-color: #808C20;
+}
+.nav-item-der {
+    display: inline-block;
+    text-align: center;
+    font-size: 15;  
+}
+i {
+    color: #ffffff;
+}
+
+/* En esta sección, ajusté el tamaño del carrusel, así como sus bordes */
+#carrusel {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.carousel-item {
+    height: 500px;
+
+}
+
+/* Configuración de titulos y textos */
+h3 {
+    color: aliceblue;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    background-color: #808C20;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+/* Sección dedicada a la configuración de las tarjetas */
+.card {
+    margin: 10px;
+}
+.card-title {
+    text-align: center;
+}
+.card-description {
+    text-align: justify;
+}
+.card .btn {
+    display: block;
+}
+.card-text {
+    text-align: justify;
+}
+.custom_btn {
+    background-color: #808C20;
+}
+
+/*Formulario*/
+.container-form{
+    border-radius: 5px;
+    background-color: #808C20;
+}
+
+
