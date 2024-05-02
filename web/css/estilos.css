@@ -1,17 +1,13 @@
-html{
-    align-content: center;
-}
-
 body {
     background-image: url('../img/background.jpg'); 
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 50px;
+    margin: 50px auto;
     border-radius: 5px; 
 }
 
-/* Titulo principal de la página */
+/* Titulo principal (H1) y slogan (H3) de la página */
 h1 {
     margin: 10px;       
     color: aliceblue;
@@ -20,13 +16,20 @@ h1 {
     font-size: 50px;
     border-radius: 5px;
 }
+h3 {
+    color: aliceblue;
+    text-align: justify;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
 .container.bg-custom { /*Fondo del contenido (Para contraste)*/
     background-color: #1C2F36;
     border-radius: 20px;
 }
 
 /*Contenido*/
-.parrafo1 {
+.parrafo {
     background-color: #808C20;
     font-size: 15px;  
     text-align: justify;
@@ -40,10 +43,9 @@ h1 {
     padding: 10px;
 }
 
-
 /* En esta sección se ajusta la barra de navegación */
 .navbar {
-    height: 50;
+    height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -54,7 +56,7 @@ h1 {
 .nav-item-der {
     display: inline-block;
     text-align: center;
-    font-size: 15;  
+    font-size: 15px;  
 }
 i {
     color: #ffffff;
@@ -65,20 +67,13 @@ i {
 
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 5px;
+    height: 500px;
 }
 .carousel-item {
     height: 500px;
-
 }
 
-/* Configuración de titulos y textos */
-h3 {
-    color: aliceblue;
-    text-align: justify;
-    border-radius: 5px;
-}
-
+/* Configuración de titulos y textos (H2 para secciones y H4 para titulos en contenido*/
 h2 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
@@ -86,6 +81,12 @@ h2 {
     text-align: center;
     border-radius: 5px;
     margin-top: 5px;
+}
+h4 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 5px;
 }
 /* Sección dedicada a la configuración de las tarjetas */
 .card {
@@ -112,5 +113,3 @@ h2 {
     border-radius: 5px;
     background-color: #808C20;
 }
-
-
